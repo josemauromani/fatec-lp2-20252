@@ -1,6 +1,6 @@
 <?php
 include("./config.inc.php");
-include("../header.php");
+include("../includes/header.php");
 ?>
 
 <h3>USER</h3>
@@ -53,5 +53,5 @@ if (mysqli_num_rows($result) > 0) {
 <br><a href="/sistema/user/carrinho.php" style="color: black;">CARRINHO</a>
 
 <?php
-include("../footer.php");
+include("../includes/footer.php");
 ?>

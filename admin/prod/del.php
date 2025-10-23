@@ -25,7 +25,7 @@ if (isset($_GET["del"]) && ($_GET["del"] == "yes")) {
 	exit;
 }
 
-include("../../header.php");
+include("../../includes/header.php");
 include("../menu.php");
 
 ?>
@@ -49,5 +49,5 @@ include("../menu.php");
 </table>
 
 <?php
-include("../../footer.php");
+include("../../includes/footer.php");
 ?>

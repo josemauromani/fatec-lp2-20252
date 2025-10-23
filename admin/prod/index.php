@@ -2,7 +2,7 @@
 include("../config.inc.php");
 include("../session.php");
 validaSessao();
-include("../../header.php");
+include("../../includes/header.php");
 include("../menu.php");
 ?>
 
@@ -39,5 +39,5 @@ include("../menu.php");
 <a href="/sistema/admin/prod/add.php" style="color: black;">+ Adicionar</a>
 
 <?php
-include("../../footer.php");
+include("../../includes/footer.php");
 ?>

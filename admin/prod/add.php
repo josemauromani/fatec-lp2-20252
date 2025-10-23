@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	}
 }
 
-include("../../header.php");
+include("../../includes/header.php");
 include("../menu.php");
 
 ?>
@@ -64,5 +64,5 @@ if (isset($error)) {
 </form>
 
 <?php
-include("../../footer.php");
+include("../../includes/footer.php");
 ?>

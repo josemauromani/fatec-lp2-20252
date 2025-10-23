@@ -1,4 +1,2 @@
 <?php
-header("Location: /sistema/user/");
-exit;
-?>
+header("Location: ./public");
